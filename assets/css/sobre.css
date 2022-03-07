@@ -1,0 +1,20 @@
+.sobre{
+    color: #ffffff;
+    background: #000000;
+}
+
+.sobre__foto{
+    width: 200px;
+}
+
+.sobre__texto{
+    width: 75%;
+    padding: 10em;
+    margin-left: 10%;
+}
+
+.sobre .titulo {
+    position: absolute;
+    margin-left: 19rem;
+    margin-top: 4rem;
+}

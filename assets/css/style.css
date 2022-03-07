@@ -1,0 +1,45 @@
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.contenidoPrincipal {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.subtitulo {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 32px;
+	margin-bottom: 10px;
+	text-align: center;
+	padding: 1em 0 0 0;
+
+}
+
+
+@media(max-width: 480px) {
+    .cabecera{
+		width: 100%;
+	}
+
+	.cursos{
+		width: auto;
+	}
+
+	.cursos_lista{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+
+/*responsive*/
+
+@media(max-width: 768px) {
+	.cabecera .container {
+		flex-direction: column;
+        width: 100%;
+	}
+}
