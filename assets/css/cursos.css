@@ -1,5 +1,6 @@
 .cursos{
 	background: #1e1f26;
+	overflow: hidden;
 }
 
 .cursos .subtitulo{
@@ -22,8 +23,9 @@
 }
 
 .curso__parte:hover {
-	-webkit-transform:scale(1.3);transform:scale(1.3);
-}
+	filter: grayscale(100%);
+	border: #ffffff solid;
+}	
 
 .experiencia{
 	display: flex;
