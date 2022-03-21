@@ -24,7 +24,6 @@
 
 .curso__parte:hover {
 	filter: grayscale(100%);
-	border: #ffffff solid;
 }	
 
 .experiencia{
